@@ -1,0 +1,4 @@
+1. mengetahui apa itu git
+2. bagaimana cara add dan commit git
+3. membuat branch
+4. dan pengoprasian branch baik dari checout dan merge
