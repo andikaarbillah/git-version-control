@@ -19,4 +19,8 @@ func main(){
 		[MERGE]
 - git log untuk melihat riwayat git
 - git log --oneline
+- git branch nama_branch
+- git checkout nama_branch
+- git merge nama_branch_yang_mau_dimerge
+
 */
