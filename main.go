@@ -1,7 +1,13 @@
 package main
 
-func main(){
-	
+import "fmt"
+
+func main() {
+	fmt.Println("Hello world")
+	var nama string
+	fmt.Print("Masukkan nama anda : ")
+	fmt.Scanln(&nama)
+	fmt.Printf("Baik nama anda adalah %s\n", nama)
 }
 
 //message
@@ -23,7 +29,7 @@ func main(){
 - git checkout nama_branch
 - git merge nama_branch_yang_mau_dimerge
 - git branch nama_branch_baru branch_tujuan walaupun dalam branch sekarang
-- git clone 
+- git clone
 - git cherry-pic commitID cara mendapatkan commitID dengan sara git log
 - git cherry-pick --continue melanjutkan
 - git cherry-pick --abort membatalkan
